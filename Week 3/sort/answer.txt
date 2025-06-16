@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: I observed that sor1 runs much faster on already sorted data, but is slower on reversed and random data. This behavior matches that of an optimized bubble sort, which can detect a sorted array early and stop, but still has a time complexity of O(n²) in the worst case, such as reversed or random input.
+
+sort2 uses: merge sort
+
+How do you know?: This one always finishes in approximately 1 second, regardless of the input type (sorted, reversed or random). This consistent performance matches the characteristics of merge sort, which has a time complexity of O(n log n) and is not sensitive to the inital order of data.
+
+sort3 uses: selection sort
+
+How do you know?: He takes a long time to complete on all input types (3 or 4 seconds), including sorted data. The performance is consistently pour and does not vary with the input order. This indicates selection sort, which always performs the same number of comparisons (O(n²)), regardless of whether the input is sorted or not.
